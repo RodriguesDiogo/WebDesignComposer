@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222831;
+}
+
+.fullscreenpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+
+.title{
+    text-align: center;
+    color:#EEEEEE;
+    font-size: 2rem;
+    font-family: 'Supermercado One', cursive;
+}
+
+.start a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #D65A31;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Supermercado One', cursive;
+}
